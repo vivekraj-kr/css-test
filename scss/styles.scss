@@ -64,6 +64,7 @@ img {
 
 .checkbox-item {
     position: relative;
+    display: flex;
 
     .checkbox + label {
         background: none repeat scroll 0 0 $white;
@@ -83,7 +84,7 @@ img {
             left: 4px;
             opacity: 0;
             position: absolute;
-            top: 5px;
+            top: 6px;
             -ms-transform:rotate(-45deg); /* IE 9 */
             -webkit-transform:rotate(-45deg); /* Safari and Chrome */
             transform:rotate(-45deg);
